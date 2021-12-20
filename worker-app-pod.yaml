@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
     - name: worker-app
-      image: kodekloud/exampleworkerapp_worker:v1
+      image: kodekloud/examplevotingapp_worker:v1
       ports:
         - containerPort: 80
